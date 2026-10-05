@@ -1,0 +1,1616 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "FakeAPI",
+    "version": "1.0.0",
+    "description": "Static dummy JSON data for frontend development and prototypes. No authentication required. GET requests return the complete dataset. Filtering and pagination must be done in your application; write operations are not supported."
+  },
+  "servers": [
+    {
+      "url": "https://shardulaswale.github.io/FakeAPI",
+      "description": "GitHub Pages"
+    }
+  ],
+  "tags": [
+    {
+      "name": "Carts"
+    },
+    {
+      "name": "Categories"
+    },
+    {
+      "name": "Comments"
+    },
+    {
+      "name": "Orders"
+    },
+    {
+      "name": "Posts"
+    },
+    {
+      "name": "Products"
+    },
+    {
+      "name": "Reviews"
+    },
+    {
+      "name": "Todos"
+    },
+    {
+      "name": "Users"
+    },
+    {
+      "name": "Addresses"
+    },
+    {
+      "name": "Companies"
+    },
+    {
+      "name": "Contacts"
+    },
+    {
+      "name": "Employees"
+    },
+    {
+      "name": "Events"
+    },
+    {
+      "name": "Jobs"
+    },
+    {
+      "name": "Messages"
+    },
+    {
+      "name": "Notifications"
+    }
+  ],
+  "paths": {
+    "/carts.json": {
+      "get": {
+        "tags": [
+          "Carts"
+        ],
+        "summary": "Retrieve all 15 carts",
+        "operationId": "getCarts",
+        "description": "Returns the complete collection. No parameters, server-side filtering or pagination.",
+        "responses": {
+          "200": {
+            "description": "Complete carts collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CartsResponse"
+                },
+                "example": {
+                  "carts": [
+                    {
+                      "id": 1,
+                      "userId": 1,
+                      "items": [
+                        {
+                          "productId": 3,
+                          "quantity": 1,
+                          "unitPrice": 19.99
+                        },
+                        {
+                          "productId": 10,
+                          "quantity": 2,
+                          "unitPrice": 32.5
+                        }
+                      ],
+                      "quantity": 3,
+                      "total": 84.99,
+                      "currency": "GBP"
+                    },
+                    {
+                      "id": 2,
+                      "userId": 2,
+                      "items": [
+                        {
+                          "productId": 4,
+                          "quantity": 1,
+                          "unitPrice": 24.5
+                        },
+                        {
+                          "productId": 11,
+                          "quantity": 2,
+                          "unitPrice": 22
+                        }
+                      ],
+                      "quantity": 3,
+                      "total": 68.5,
+                      "currency": "GBP"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/categories.json": {
+      "get": {
+        "tags": [
+          "Categories"
+        ],
+        "summary": "Retrieve all 8 categories",
+        "operationId": "getCategories",
+        "description": "Returns the complete collection. No parameters, server-side filtering or pagination.",
+        "responses": {
+          "200": {
+            "description": "Complete categories collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CategoriesResponse"
+                },
+                "example": {
+                  "categories": [
+                    {
+                      "id": 1,
+                      "name": "Electronics",
+                      "slug": "electronics",
+                      "parentId": null
+                    },
+                    {
+                      "id": 2,
+                      "name": "Home",
+                      "slug": "home",
+                      "parentId": null
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/comments.json": {
+      "get": {
+        "tags": [
+          "Comments"
+        ],
+        "summary": "Retrieve all 60 comments",
+        "operationId": "getComments",
+        "description": "Returns the complete collection. No parameters, server-side filtering or pagination.",
+        "responses": {
+          "200": {
+            "description": "Complete comments collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CommentsResponse"
+                },
+                "example": {
+                  "comments": [
+                    {
+                      "id": 1,
+                      "postId": 1,
+                      "userId": 4,
+                      "body": "Thanks for sharing this example.",
+                      "createdAt": "2026-09-01T12:00:00Z"
+                    },
+                    {
+                      "id": 2,
+                      "postId": 2,
+                      "userId": 5,
+                      "body": "The step-by-step explanation was useful.",
+                      "createdAt": "2026-09-02T12:00:00Z"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/orders.json": {
+      "get": {
+        "tags": [
+          "Orders"
+        ],
+        "summary": "Retrieve all 30 orders",
+        "operationId": "getOrders",
+        "description": "Returns the complete collection. No parameters, server-side filtering or pagination.",
+        "responses": {
+          "200": {
+            "description": "Complete orders collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrdersResponse"
+                },
+                "example": {
+                  "orders": [
+                    {
+                      "id": 1,
+                      "userId": 1,
+                      "items": [
+                        {
+                          "productId": 1,
+                          "quantity": 1,
+                          "unitPrice": 79.99
+                        },
+                        {
+                          "productId": 8,
+                          "quantity": 1,
+                          "unitPrice": 35
+                        }
+                      ],
+                      "total": 114.99,
+                      "currency": "GBP",
+                      "status": "pending",
+                      "createdAt": "2026-09-01T10:00:00Z"
+                    },
+                    {
+                      "id": 2,
+                      "userId": 2,
+                      "items": [
+                        {
+                          "productId": 2,
+                          "quantity": 2,
+                          "unitPrice": 39.5
+                        },
+                        {
+                          "productId": 9,
+                          "quantity": 1,
+                          "unitPrice": 28.99
+                        }
+                      ],
+                      "total": 107.99,
+                      "currency": "GBP",
+                      "status": "processing",
+                      "createdAt": "2026-09-02T10:00:00Z"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/posts.json": {
+      "get": {
+        "tags": [
+          "Posts"
+        ],
+        "summary": "Retrieve all 30 posts",
+        "operationId": "getPosts",
+        "description": "Returns the complete collection. No parameters, server-side filtering or pagination.",
+        "responses": {
+          "200": {
+            "description": "Complete posts collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PostsResponse"
+                },
+                "example": {
+                  "posts": [
+                    {
+                      "id": 1,
+                      "userId": 1,
+                      "title": "Building accessible forms: example 1",
+                      "body": "This sample post discusses building accessible forms. Start with a small goal, review the available options and document what you learn. This content is fictional and intended for interface testing.",
+                      "tags": [
+                        "development",
+                        "tutorial"
+                      ],
+                      "createdAt": "2026-09-01T10:00:00Z"
+                    },
+                    {
+                      "id": 2,
+                      "userId": 2,
+                      "title": "Getting started with Python: example 1",
+                      "body": "This sample post discusses getting started with python. Start with a small goal, review the available options and document what you learn. This content is fictional and intended for interface testing.",
+                      "tags": [
+                        "lifestyle",
+                        "planning"
+                      ],
+                      "createdAt": "2026-09-02T10:00:00Z"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/products.json": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "summary": "Retrieve all 30 products",
+        "operationId": "getProducts",
+        "description": "Returns the complete collection. No parameters, server-side filtering or pagination.",
+        "responses": {
+          "200": {
+            "description": "Complete products collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProductsResponse"
+                },
+                "example": {
+                  "products": [
+                    {
+                      "id": 1,
+                      "title": "Wireless Headphones",
+                      "price": 79.99,
+                      "currency": "GBP",
+                      "category": "Electronics",
+                      "categoryId": 1,
+                      "images": [
+                        "https://picsum.photos/seed/fakeapi-product-1/640/480"
+                      ],
+                      "stock": 0,
+                      "rating": 3
+                    },
+                    {
+                      "id": 2,
+                      "title": "Bluetooth Speaker",
+                      "price": 39.5,
+                      "currency": "GBP",
+                      "category": "Electronics",
+                      "categoryId": 1,
+                      "images": [
+                        "https://picsum.photos/seed/fakeapi-product-2/640/480"
+                      ],
+                      "stock": 13,
+                      "rating": 4
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/reviews.json": {
+      "get": {
+        "tags": [
+          "Reviews"
+        ],
+        "summary": "Retrieve all 60 reviews",
+        "operationId": "getReviews",
+        "description": "Returns the complete collection. No parameters, server-side filtering or pagination.",
+        "responses": {
+          "200": {
+            "description": "Complete reviews collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReviewsResponse"
+                },
+                "example": {
+                  "reviews": [
+                    {
+                      "id": 1,
+                      "productId": 1,
+                      "userId": 1,
+                      "rating": 3,
+                      "comment": "Useful for everyday use."
+                    },
+                    {
+                      "id": 2,
+                      "productId": 2,
+                      "userId": 2,
+                      "rating": 4,
+                      "comment": "Good quality and straightforward to use."
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/todos.json": {
+      "get": {
+        "tags": [
+          "Todos"
+        ],
+        "summary": "Retrieve all 200 todos",
+        "operationId": "getTodos",
+        "description": "Returns the complete collection. No parameters, server-side filtering or pagination.",
+        "responses": {
+          "200": {
+            "description": "Complete todos collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TodosResponse"
+                },
+                "example": {
+                  "todos": [
+                    {
+                      "userId": 1,
+                      "id": 1,
+                      "title": "delectus aut autem",
+                      "completed": false
+                    },
+                    {
+                      "userId": 1,
+                      "id": 2,
+                      "title": "quis ut nam facilis et officia qui",
+                      "completed": false
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/users.json": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Retrieve all 20 users",
+        "operationId": "getUsers",
+        "description": "Returns the complete collection. No parameters, server-side filtering or pagination.",
+        "responses": {
+          "200": {
+            "description": "Complete users collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UsersResponse"
+                },
+                "example": {
+                  "users": [
+                    {
+                      "id": 1,
+                      "name": "Alex Morgan",
+                      "email": "user1@example.com",
+                      "avatar": "https://picsum.photos/seed/fakeapi-avatar-1/640/480",
+                      "role": "admin"
+                    },
+                    {
+                      "id": 2,
+                      "name": "Sam Patel",
+                      "email": "user2@example.com",
+                      "avatar": "https://picsum.photos/seed/fakeapi-avatar-2/640/480",
+                      "role": "editor"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/addresses.json": {
+      "get": {
+        "tags": [
+          "Addresses"
+        ],
+        "summary": "Retrieve all 20 addresses",
+        "operationId": "getAddresses",
+        "responses": {
+          "200": {
+            "description": "Complete addresses collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AddressesResponse"
+                },
+                "example": {
+                  "addresses": [
+                    {
+                      "id": 1,
+                      "userId": 1,
+                      "street": "1 Example Road",
+                      "city": "London",
+                      "postcode": "E1 6AN",
+                      "country": "United Kingdom"
+                    },
+                    {
+                      "id": 2,
+                      "userId": 2,
+                      "street": "2 Example Road",
+                      "city": "Manchester",
+                      "postcode": "M1 1AE",
+                      "country": "United Kingdom"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/companies.json": {
+      "get": {
+        "tags": [
+          "Companies"
+        ],
+        "summary": "Retrieve all 6 companies",
+        "operationId": "getCompanies",
+        "responses": {
+          "200": {
+            "description": "Complete companies collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CompaniesResponse"
+                },
+                "example": {
+                  "companies": [
+                    {
+                      "id": 1,
+                      "name": "Northstar Labs",
+                      "industry": "Technology",
+                      "website": "https://company1.example.com",
+                      "address": {
+                        "street": "10 Example Street",
+                        "city": "London",
+                        "postcode": "EC1A 1BB",
+                        "country": "United Kingdom"
+                      }
+                    },
+                    {
+                      "id": 2,
+                      "name": "Willow Retail",
+                      "industry": "Retail",
+                      "website": "https://company2.example.com",
+                      "address": {
+                        "street": "11 Example Street",
+                        "city": "Manchester",
+                        "postcode": "M1 1AE",
+                        "country": "United Kingdom"
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/contacts.json": {
+      "get": {
+        "tags": [
+          "Contacts"
+        ],
+        "summary": "Retrieve all 20 contacts",
+        "operationId": "getContacts",
+        "responses": {
+          "200": {
+            "description": "Complete contacts collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ContactsResponse"
+                },
+                "example": {
+                  "contacts": [
+                    {
+                      "id": 1,
+                      "name": "Alex Morgan",
+                      "email": "user1@example.com",
+                      "phone": "+44 7700 900000",
+                      "companyId": 1
+                    },
+                    {
+                      "id": 2,
+                      "name": "Sam Patel",
+                      "email": "user2@example.com",
+                      "phone": "+44 7700 900001",
+                      "companyId": 2
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/employees.json": {
+      "get": {
+        "tags": [
+          "Employees"
+        ],
+        "summary": "Retrieve all 12 employees",
+        "operationId": "getEmployees",
+        "responses": {
+          "200": {
+            "description": "Complete employees collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EmployeesResponse"
+                },
+                "example": {
+                  "employees": [
+                    {
+                      "id": 1,
+                      "name": "Alex Morgan",
+                      "department": "Leadership",
+                      "jobTitle": "Managing Director",
+                      "managerId": null
+                    },
+                    {
+                      "id": 2,
+                      "name": "Sam Patel",
+                      "department": "Engineering",
+                      "jobTitle": "Department Manager",
+                      "managerId": 1
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/events.json": {
+      "get": {
+        "tags": [
+          "Events"
+        ],
+        "summary": "Retrieve all 15 events",
+        "operationId": "getEvents",
+        "responses": {
+          "200": {
+            "description": "Complete events collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/EventsResponse"
+                },
+                "example": {
+                  "events": [
+                    {
+                      "id": 1,
+                      "title": "Developer Workshop",
+                      "startAt": "2026-09-01T10:00:00Z",
+                      "endAt": "2026-09-01T12:00:00Z",
+                      "location": "Online"
+                    },
+                    {
+                      "id": 2,
+                      "title": "Community Meetup",
+                      "startAt": "2026-09-02T10:00:00Z",
+                      "endAt": "2026-09-02T12:00:00Z",
+                      "location": "Manchester Example Conference Centre"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/jobs.json": {
+      "get": {
+        "tags": [
+          "Jobs"
+        ],
+        "summary": "Retrieve all 18 jobs",
+        "operationId": "getJobs",
+        "responses": {
+          "200": {
+            "description": "Complete jobs collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JobsResponse"
+                },
+                "example": {
+                  "jobs": [
+                    {
+                      "id": 1,
+                      "companyId": 1,
+                      "title": "Frontend Developer",
+                      "location": "London",
+                      "salary": {
+                        "min": 35000,
+                        "max": 50000,
+                        "currency": "GBP",
+                        "period": "year"
+                      },
+                      "skills": [
+                        "JavaScript",
+                        "React",
+                        "CSS"
+                      ]
+                    },
+                    {
+                      "id": 2,
+                      "companyId": 2,
+                      "title": "Backend Developer",
+                      "location": "Manchester",
+                      "salary": {
+                        "min": 36000,
+                        "max": 51000,
+                        "currency": "GBP",
+                        "period": "year"
+                      },
+                      "skills": [
+                        "Python",
+                        "REST APIs",
+                        "SQL"
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/messages.json": {
+      "get": {
+        "tags": [
+          "Messages"
+        ],
+        "summary": "Retrieve all 40 messages",
+        "operationId": "getMessages",
+        "responses": {
+          "200": {
+            "description": "Complete messages collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MessagesResponse"
+                },
+                "example": {
+                  "messages": [
+                    {
+                      "id": 1,
+                      "senderId": 1,
+                      "receiverId": 2,
+                      "body": "Are you available for a short meeting?",
+                      "sentAt": "2026-09-01T14:00:00Z"
+                    },
+                    {
+                      "id": 2,
+                      "senderId": 2,
+                      "receiverId": 3,
+                      "body": "I have shared the latest draft.",
+                      "sentAt": "2026-09-02T14:00:00Z"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/notifications.json": {
+      "get": {
+        "tags": [
+          "Notifications"
+        ],
+        "summary": "Retrieve all 40 notifications",
+        "operationId": "getNotifications",
+        "responses": {
+          "200": {
+            "description": "Complete notifications collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/NotificationsResponse"
+                },
+                "example": {
+                  "notifications": [
+                    {
+                      "id": 1,
+                      "userId": 1,
+                      "title": "Order update",
+                      "message": "Your sample order status has changed.",
+                      "read": true,
+                      "createdAt": "2026-09-01T10:00:00Z"
+                    },
+                    {
+                      "id": 2,
+                      "userId": 2,
+                      "title": "New message",
+                      "message": "You have a new sample message.",
+                      "read": false,
+                      "createdAt": "2026-09-02T10:00:00Z"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CartsResponse": {
+        "type": "object",
+        "required": [
+          "carts"
+        ],
+        "properties": {
+          "carts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "userId",
+                "items",
+                "quantity",
+                "total",
+                "currency"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "userId": {
+                  "type": "integer"
+                },
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "productId",
+                      "quantity",
+                      "unitPrice"
+                    ],
+                    "properties": {
+                      "productId": {
+                        "type": "integer"
+                      },
+                      "quantity": {
+                        "type": "integer"
+                      },
+                      "unitPrice": {
+                        "type": "number"
+                      }
+                    }
+                  }
+                },
+                "quantity": {
+                  "type": "integer"
+                },
+                "total": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "CategoriesResponse": {
+        "type": "object",
+        "required": [
+          "categories"
+        ],
+        "properties": {
+          "categories": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "name",
+                "slug",
+                "parentId"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "slug": {
+                  "type": "string"
+                },
+                "parentId": {
+                  "type": "integer",
+                  "nullable": true
+                }
+              }
+            }
+          }
+        }
+      },
+      "CommentsResponse": {
+        "type": "object",
+        "required": [
+          "comments"
+        ],
+        "properties": {
+          "comments": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "postId",
+                "userId",
+                "body",
+                "createdAt"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "postId": {
+                  "type": "integer"
+                },
+                "userId": {
+                  "type": "integer"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "createdAt": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "OrdersResponse": {
+        "type": "object",
+        "required": [
+          "orders"
+        ],
+        "properties": {
+          "orders": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "userId",
+                "items",
+                "total",
+                "currency",
+                "status",
+                "createdAt"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "userId": {
+                  "type": "integer"
+                },
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "productId",
+                      "quantity",
+                      "unitPrice"
+                    ],
+                    "properties": {
+                      "productId": {
+                        "type": "integer"
+                      },
+                      "quantity": {
+                        "type": "integer"
+                      },
+                      "unitPrice": {
+                        "type": "number"
+                      }
+                    }
+                  }
+                },
+                "total": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "createdAt": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "PostsResponse": {
+        "type": "object",
+        "required": [
+          "posts"
+        ],
+        "properties": {
+          "posts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "userId",
+                "title",
+                "body",
+                "tags",
+                "createdAt"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "userId": {
+                  "type": "integer"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "tags": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "createdAt": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "ProductsResponse": {
+        "type": "object",
+        "required": [
+          "products"
+        ],
+        "properties": {
+          "products": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "title",
+                "price",
+                "currency",
+                "category",
+                "categoryId",
+                "images",
+                "stock",
+                "rating"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "price": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                },
+                "category": {
+                  "type": "string"
+                },
+                "categoryId": {
+                  "type": "integer"
+                },
+                "images": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "stock": {
+                  "type": "integer"
+                },
+                "rating": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        }
+      },
+      "ReviewsResponse": {
+        "type": "object",
+        "required": [
+          "reviews"
+        ],
+        "properties": {
+          "reviews": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "productId",
+                "userId",
+                "rating",
+                "comment"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "productId": {
+                  "type": "integer"
+                },
+                "userId": {
+                  "type": "integer"
+                },
+                "rating": {
+                  "type": "integer"
+                },
+                "comment": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "TodosResponse": {
+        "type": "object",
+        "required": [
+          "todos"
+        ],
+        "properties": {
+          "todos": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "userId",
+                "id",
+                "title",
+                "completed"
+              ],
+              "properties": {
+                "userId": {
+                  "type": "integer"
+                },
+                "id": {
+                  "type": "integer"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "completed": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      },
+      "UsersResponse": {
+        "type": "object",
+        "required": [
+          "users"
+        ],
+        "properties": {
+          "users": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "name",
+                "email",
+                "avatar",
+                "role"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "email": {
+                  "type": "string"
+                },
+                "avatar": {
+                  "type": "string"
+                },
+                "role": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "AddressesResponse": {
+        "type": "object",
+        "required": [
+          "addresses"
+        ],
+        "properties": {
+          "addresses": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "userId",
+                "street",
+                "city",
+                "postcode",
+                "country"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "userId": {
+                  "type": "integer"
+                },
+                "street": {
+                  "type": "string"
+                },
+                "city": {
+                  "type": "string"
+                },
+                "postcode": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "CompaniesResponse": {
+        "type": "object",
+        "required": [
+          "companies"
+        ],
+        "properties": {
+          "companies": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "name",
+                "industry",
+                "website",
+                "address"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "industry": {
+                  "type": "string"
+                },
+                "website": {
+                  "type": "string"
+                },
+                "address": {
+                  "type": "object",
+                  "required": [
+                    "street",
+                    "city",
+                    "postcode",
+                    "country"
+                  ],
+                  "properties": {
+                    "street": {
+                      "type": "string"
+                    },
+                    "city": {
+                      "type": "string"
+                    },
+                    "postcode": {
+                      "type": "string"
+                    },
+                    "country": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "ContactsResponse": {
+        "type": "object",
+        "required": [
+          "contacts"
+        ],
+        "properties": {
+          "contacts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "name",
+                "email",
+                "phone",
+                "companyId"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "email": {
+                  "type": "string"
+                },
+                "phone": {
+                  "type": "string"
+                },
+                "companyId": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        }
+      },
+      "EmployeesResponse": {
+        "type": "object",
+        "required": [
+          "employees"
+        ],
+        "properties": {
+          "employees": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "name",
+                "department",
+                "jobTitle",
+                "managerId"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "department": {
+                  "type": "string"
+                },
+                "jobTitle": {
+                  "type": "string"
+                },
+                "managerId": {
+                  "type": "integer",
+                  "nullable": true
+                }
+              }
+            }
+          }
+        }
+      },
+      "EventsResponse": {
+        "type": "object",
+        "required": [
+          "events"
+        ],
+        "properties": {
+          "events": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "title",
+                "startAt",
+                "endAt",
+                "location"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "startAt": {
+                  "type": "string"
+                },
+                "endAt": {
+                  "type": "string"
+                },
+                "location": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "JobsResponse": {
+        "type": "object",
+        "required": [
+          "jobs"
+        ],
+        "properties": {
+          "jobs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "companyId",
+                "title",
+                "location",
+                "salary",
+                "skills"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "companyId": {
+                  "type": "integer"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "location": {
+                  "type": "string"
+                },
+                "salary": {
+                  "type": "object",
+                  "required": [
+                    "min",
+                    "max",
+                    "currency",
+                    "period"
+                  ],
+                  "properties": {
+                    "min": {
+                      "type": "integer"
+                    },
+                    "max": {
+                      "type": "integer"
+                    },
+                    "currency": {
+                      "type": "string"
+                    },
+                    "period": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "skills": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "MessagesResponse": {
+        "type": "object",
+        "required": [
+          "messages"
+        ],
+        "properties": {
+          "messages": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "senderId",
+                "receiverId",
+                "body",
+                "sentAt"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "senderId": {
+                  "type": "integer"
+                },
+                "receiverId": {
+                  "type": "integer"
+                },
+                "body": {
+                  "type": "string"
+                },
+                "sentAt": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "NotificationsResponse": {
+        "type": "object",
+        "required": [
+          "notifications"
+        ],
+        "properties": {
+          "notifications": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "userId",
+                "title",
+                "message",
+                "read",
+                "createdAt"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "userId": {
+                  "type": "integer"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "message": {
+                  "type": "string"
+                },
+                "read": {
+                  "type": "boolean"
+                },
+                "createdAt": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
