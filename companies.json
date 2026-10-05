@@ -1,0 +1,76 @@
+{
+  "companies": [
+    {
+      "id": 1,
+      "name": "Northstar Labs",
+      "industry": "Technology",
+      "website": "https://company1.example.com",
+      "address": {
+        "street": "10 Example Street",
+        "city": "London",
+        "postcode": "EC1A 1BB",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Willow Retail",
+      "industry": "Retail",
+      "website": "https://company2.example.com",
+      "address": {
+        "street": "11 Example Street",
+        "city": "Manchester",
+        "postcode": "M1 1AE",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Atlas Logistics",
+      "industry": "Logistics",
+      "website": "https://company3.example.com",
+      "address": {
+        "street": "12 Example Street",
+        "city": "Birmingham",
+        "postcode": "B1 1AA",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Cedar Studio",
+      "industry": "Design",
+      "website": "https://company4.example.com",
+      "address": {
+        "street": "13 Example Street",
+        "city": "Leeds",
+        "postcode": "LS1 1UR",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Harbour Software",
+      "industry": "Software",
+      "website": "https://company5.example.com",
+      "address": {
+        "street": "14 Example Street",
+        "city": "Bristol",
+        "postcode": "BS1 1AD",
+        "country": "United Kingdom"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Summit Services",
+      "industry": "Consulting",
+      "website": "https://company6.example.com",
+      "address": {
+        "street": "15 Example Street",
+        "city": "Edinburgh",
+        "postcode": "EH1 1YZ",
+        "country": "United Kingdom"
+      }
+    }
+  ]
+}
