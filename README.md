@@ -2,6 +2,12 @@
 
 Read-only JSON datasets for frontend development, interface testing and prototypes. GitHub Pages serves each file directly.
 
+## Interactive documentation
+
+[Open Swagger UI](https://shardulaswale.github.io/FakeAPI/) to inspect endpoint schemas and execute GET requests using **Try it out**.
+
+[Download the OpenAPI specification](https://shardulaswale.github.io/FakeAPI/openapi.json). Swagger UI assets use a pinned version from UNPKG.
+
 ## Server
 
 Base URL: `https://shardulaswale.github.io/FakeAPI`
@@ -139,8 +145,12 @@ Load the related files and join or filter their arrays in your application.
 - Email and company website fields use example domains. Phone fields use UK numbers reserved for fictional use.
 - Image URLs provide generic placeholders through Picsum; they do not depict the named people, products or movies.
 - The existing 200-record todo dataset is preserved.
-- This README is endpoint documentation, not interactive Swagger UI.
+- The site root serves interactive Swagger UI. Each dataset remains available at its direct JSON URL.
 
 ## Deployment
 
 Publish the `main` branch from the repository root through GitHub Pages. JSON files remain accessible at their direct `.json` URLs when a README is present. Commit fixture changes and allow the Pages deployment to complete.
+
+## Adding endpoints
+
+Add the JSON file, then describe its GET path and response schema in `openapi.json`. Swagger UI reads the specification; new files are not discovered automatically.
