@@ -62,6 +62,21 @@
     },
     {
       "name": "Notifications"
+    },
+    {
+      "name": "Transactions"
+    },
+    {
+      "name": "Tickets"
+    },
+    {
+      "name": "Movies"
+    },
+    {
+      "name": "Recipes"
+    },
+    {
+      "name": "Weather"
     }
   ],
   "paths": {
@@ -828,6 +843,239 @@
                       "message": "You have a new sample message.",
                       "read": false,
                       "createdAt": "2026-09-02T10:00:00Z"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/transactions.json": {
+      "get": {
+        "tags": [
+          "Transactions"
+        ],
+        "summary": "Retrieve all 24 transactions records",
+        "operationId": "getTransactions",
+        "responses": {
+          "200": {
+            "description": "Complete transactions collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TransactionsResponse"
+                },
+                "example": {
+                  "transactions": [
+                    {
+                      "id": 1,
+                      "userId": 1,
+                      "orderId": 1,
+                      "amount": 114.99,
+                      "currency": "GBP",
+                      "type": "payment",
+                      "status": "pending",
+                      "createdAt": "2026-09-01T10:00:00Z"
+                    },
+                    {
+                      "id": 2,
+                      "userId": 2,
+                      "orderId": 2,
+                      "amount": 107.99,
+                      "currency": "GBP",
+                      "type": "payment",
+                      "status": "completed",
+                      "createdAt": "2026-09-02T10:00:00Z"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/tickets.json": {
+      "get": {
+        "tags": [
+          "Tickets"
+        ],
+        "summary": "Retrieve all 20 tickets records",
+        "operationId": "getTickets",
+        "responses": {
+          "200": {
+            "description": "Complete tickets collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TicketsResponse"
+                },
+                "example": {
+                  "tickets": [
+                    {
+                      "id": 1,
+                      "userId": 1,
+                      "subject": "Cannot access account",
+                      "priority": "low",
+                      "status": "open"
+                    },
+                    {
+                      "id": 2,
+                      "userId": 2,
+                      "subject": "Delivery status enquiry",
+                      "priority": "medium",
+                      "status": "in_progress"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/movies.json": {
+      "get": {
+        "tags": [
+          "Movies"
+        ],
+        "summary": "Retrieve all 15 movies records",
+        "operationId": "getMovies",
+        "responses": {
+          "200": {
+            "description": "Complete movies collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MoviesResponse"
+                },
+                "example": {
+                  "movies": [
+                    {
+                      "id": 1,
+                      "title": "The Last Observatory",
+                      "genres": [
+                        "Drama"
+                      ],
+                      "year": 2010,
+                      "poster": "https://picsum.photos/seed/fakeapi-movie-1/640/480",
+                      "rating": 6
+                    },
+                    {
+                      "id": 2,
+                      "title": "Harbour at Dawn",
+                      "genres": [
+                        "Adventure",
+                        "Science Fiction"
+                      ],
+                      "year": 2011,
+                      "poster": "https://picsum.photos/seed/fakeapi-movie-2/640/480",
+                      "rating": 6.7
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/recipes.json": {
+      "get": {
+        "tags": [
+          "Recipes"
+        ],
+        "summary": "Retrieve all 10 recipes records",
+        "operationId": "getRecipes",
+        "responses": {
+          "200": {
+            "description": "Complete recipes collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RecipesResponse"
+                },
+                "example": {
+                  "recipes": [
+                    {
+                      "id": 1,
+                      "title": "Tomato Pasta",
+                      "ingredients": [
+                        "200 g pasta",
+                        "300 g chopped tomatoes",
+                        "1 tbsp olive oil",
+                        "1 garlic clove"
+                      ],
+                      "steps": [
+                        "Cook the pasta until tender.",
+                        "Warm the oil and gently cook the chopped garlic.",
+                        "Add tomatoes and simmer for 10 minutes.",
+                        "Combine with the drained pasta."
+                      ],
+                      "prepMinutes": 10,
+                      "cookMinutes": 20,
+                      "servings": 2
+                    },
+                    {
+                      "id": 2,
+                      "title": "Chickpea Salad",
+                      "ingredients": [
+                        "400 g drained chickpeas",
+                        "1 cucumber",
+                        "2 tomatoes",
+                        "1 tbsp lemon juice"
+                      ],
+                      "steps": [
+                        "Rinse the chickpeas.",
+                        "Chop the cucumber and tomatoes.",
+                        "Mix all ingredients and serve."
+                      ],
+                      "prepMinutes": 15,
+                      "cookMinutes": 0,
+                      "servings": 2
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/weather.json": {
+      "get": {
+        "tags": [
+          "Weather"
+        ],
+        "summary": "Retrieve all 10 weather records",
+        "operationId": "getWeather",
+        "responses": {
+          "200": {
+            "description": "Complete weather collection.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/WeatherResponse"
+                },
+                "example": {
+                  "weather": [
+                    {
+                      "city": "London",
+                      "temperature": 12,
+                      "temperatureUnit": "celsius",
+                      "humidity": 55,
+                      "condition": "Cloudy",
+                      "observedAt": "2026-09-01T09:00:00Z"
+                    },
+                    {
+                      "city": "Manchester",
+                      "temperature": 13,
+                      "temperatureUnit": "celsius",
+                      "humidity": 58,
+                      "condition": "Sunny",
+                      "observedAt": "2026-09-01T09:00:00Z"
                     }
                   ]
                 }
@@ -1604,6 +1852,233 @@
                   "type": "boolean"
                 },
                 "createdAt": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "TransactionsResponse": {
+        "type": "object",
+        "required": [
+          "transactions"
+        ],
+        "properties": {
+          "transactions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "userId",
+                "orderId",
+                "amount",
+                "currency",
+                "type",
+                "status",
+                "createdAt"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "userId": {
+                  "type": "integer"
+                },
+                "orderId": {
+                  "type": "integer"
+                },
+                "amount": {
+                  "type": "number"
+                },
+                "currency": {
+                  "type": "string"
+                },
+                "type": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "createdAt": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "TicketsResponse": {
+        "type": "object",
+        "required": [
+          "tickets"
+        ],
+        "properties": {
+          "tickets": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "userId",
+                "subject",
+                "priority",
+                "status"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "userId": {
+                  "type": "integer"
+                },
+                "subject": {
+                  "type": "string"
+                },
+                "priority": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      },
+      "MoviesResponse": {
+        "type": "object",
+        "required": [
+          "movies"
+        ],
+        "properties": {
+          "movies": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "title",
+                "genres",
+                "year",
+                "poster",
+                "rating"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "genres": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "year": {
+                  "type": "integer"
+                },
+                "poster": {
+                  "type": "string"
+                },
+                "rating": {
+                  "type": "number"
+                }
+              }
+            }
+          }
+        }
+      },
+      "RecipesResponse": {
+        "type": "object",
+        "required": [
+          "recipes"
+        ],
+        "properties": {
+          "recipes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "title",
+                "ingredients",
+                "steps",
+                "prepMinutes",
+                "cookMinutes",
+                "servings"
+              ],
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "ingredients": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "steps": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "prepMinutes": {
+                  "type": "integer"
+                },
+                "cookMinutes": {
+                  "type": "integer"
+                },
+                "servings": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        }
+      },
+      "WeatherResponse": {
+        "type": "object",
+        "required": [
+          "weather"
+        ],
+        "properties": {
+          "weather": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "city",
+                "temperature",
+                "temperatureUnit",
+                "humidity",
+                "condition",
+                "observedAt"
+              ],
+              "properties": {
+                "city": {
+                  "type": "string"
+                },
+                "temperature": {
+                  "type": "integer"
+                },
+                "temperatureUnit": {
+                  "type": "string"
+                },
+                "humidity": {
+                  "type": "integer"
+                },
+                "condition": {
+                  "type": "string"
+                },
+                "observedAt": {
                   "type": "string"
                 }
               }
