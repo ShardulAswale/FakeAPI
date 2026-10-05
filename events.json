@@ -1,0 +1,109 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Developer Workshop",
+      "startAt": "2026-09-01T10:00:00Z",
+      "endAt": "2026-09-01T12:00:00Z",
+      "location": "Online"
+    },
+    {
+      "id": 2,
+      "title": "Community Meetup",
+      "startAt": "2026-09-02T10:00:00Z",
+      "endAt": "2026-09-02T12:00:00Z",
+      "location": "Manchester Example Conference Centre"
+    },
+    {
+      "id": 3,
+      "title": "Product Demo",
+      "startAt": "2026-09-03T10:00:00Z",
+      "endAt": "2026-09-03T12:00:00Z",
+      "location": "Birmingham Example Conference Centre"
+    },
+    {
+      "id": 4,
+      "title": "Design Review",
+      "startAt": "2026-09-04T10:00:00Z",
+      "endAt": "2026-09-04T12:00:00Z",
+      "location": "Online"
+    },
+    {
+      "id": 5,
+      "title": "Training Session",
+      "startAt": "2026-09-05T10:00:00Z",
+      "endAt": "2026-09-05T12:00:00Z",
+      "location": "Bristol Example Conference Centre"
+    },
+    {
+      "id": 6,
+      "title": "Developer Workshop",
+      "startAt": "2026-09-06T10:00:00Z",
+      "endAt": "2026-09-06T12:00:00Z",
+      "location": "Edinburgh Example Conference Centre"
+    },
+    {
+      "id": 7,
+      "title": "Community Meetup",
+      "startAt": "2026-09-07T10:00:00Z",
+      "endAt": "2026-09-07T12:00:00Z",
+      "location": "Online"
+    },
+    {
+      "id": 8,
+      "title": "Product Demo",
+      "startAt": "2026-09-08T10:00:00Z",
+      "endAt": "2026-09-08T12:00:00Z",
+      "location": "Cardiff Example Conference Centre"
+    },
+    {
+      "id": 9,
+      "title": "Design Review",
+      "startAt": "2026-09-09T10:00:00Z",
+      "endAt": "2026-09-09T12:00:00Z",
+      "location": "Liverpool Example Conference Centre"
+    },
+    {
+      "id": 10,
+      "title": "Training Session",
+      "startAt": "2026-09-10T10:00:00Z",
+      "endAt": "2026-09-10T12:00:00Z",
+      "location": "Online"
+    },
+    {
+      "id": 11,
+      "title": "Developer Workshop",
+      "startAt": "2026-09-11T10:00:00Z",
+      "endAt": "2026-09-11T12:00:00Z",
+      "location": "London Example Conference Centre"
+    },
+    {
+      "id": 12,
+      "title": "Community Meetup",
+      "startAt": "2026-09-12T10:00:00Z",
+      "endAt": "2026-09-12T12:00:00Z",
+      "location": "Manchester Example Conference Centre"
+    },
+    {
+      "id": 13,
+      "title": "Product Demo",
+      "startAt": "2026-09-13T10:00:00Z",
+      "endAt": "2026-09-13T12:00:00Z",
+      "location": "Online"
+    },
+    {
+      "id": 14,
+      "title": "Design Review",
+      "startAt": "2026-09-14T10:00:00Z",
+      "endAt": "2026-09-14T12:00:00Z",
+      "location": "Leeds Example Conference Centre"
+    },
+    {
+      "id": 15,
+      "title": "Training Session",
+      "startAt": "2026-09-15T10:00:00Z",
+      "endAt": "2026-09-15T12:00:00Z",
+      "location": "Bristol Example Conference Centre"
+    }
+  ]
+}
