@@ -1,0 +1,394 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Wireless Headphones",
+      "price": 79.99,
+      "currency": "GBP",
+      "category": "Electronics",
+      "categoryId": 1,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-1/640/480"
+      ],
+      "stock": 0,
+      "rating": 3
+    },
+    {
+      "id": 2,
+      "title": "Bluetooth Speaker",
+      "price": 39.5,
+      "currency": "GBP",
+      "category": "Electronics",
+      "categoryId": 1,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-2/640/480"
+      ],
+      "stock": 13,
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "title": "USB-C Charger",
+      "price": 19.99,
+      "currency": "GBP",
+      "category": "Electronics",
+      "categoryId": 1,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-3/640/480"
+      ],
+      "stock": 16,
+      "rating": 5
+    },
+    {
+      "id": 4,
+      "title": "Desk Lamp",
+      "price": 24.5,
+      "currency": "GBP",
+      "category": "Home",
+      "categoryId": 2,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-4/640/480"
+      ],
+      "stock": 19,
+      "rating": 3
+    },
+    {
+      "id": 5,
+      "title": "Ceramic Mug",
+      "price": 8.99,
+      "currency": "GBP",
+      "category": "Home",
+      "categoryId": 2,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-5/640/480"
+      ],
+      "stock": 22,
+      "rating": 4
+    },
+    {
+      "id": 6,
+      "title": "Cotton T-Shirt",
+      "price": 15,
+      "currency": "GBP",
+      "category": "Clothing",
+      "categoryId": 3,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-6/640/480"
+      ],
+      "stock": 25,
+      "rating": 5
+    },
+    {
+      "id": 7,
+      "title": "Denim Jacket",
+      "price": 55,
+      "currency": "GBP",
+      "category": "Clothing",
+      "categoryId": 3,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-7/640/480"
+      ],
+      "stock": 28,
+      "rating": 3
+    },
+    {
+      "id": 8,
+      "title": "Everyday Backpack",
+      "price": 35,
+      "currency": "GBP",
+      "category": "Accessories",
+      "categoryId": 7,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-8/640/480"
+      ],
+      "stock": 31,
+      "rating": 4
+    },
+    {
+      "id": 9,
+      "title": "Python Fundamentals",
+      "price": 28.99,
+      "currency": "GBP",
+      "category": "Books",
+      "categoryId": 4,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-9/640/480"
+      ],
+      "stock": 34,
+      "rating": 5
+    },
+    {
+      "id": 10,
+      "title": "Web Development Handbook",
+      "price": 32.5,
+      "currency": "GBP",
+      "category": "Books",
+      "categoryId": 4,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-10/640/480"
+      ],
+      "stock": 0,
+      "rating": 3
+    },
+    {
+      "id": 11,
+      "title": "Yoga Mat",
+      "price": 22,
+      "currency": "GBP",
+      "category": "Sports",
+      "categoryId": 5,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-11/640/480"
+      ],
+      "stock": 40,
+      "rating": 4
+    },
+    {
+      "id": 12,
+      "title": "Running Bottle",
+      "price": 12.99,
+      "currency": "GBP",
+      "category": "Sports",
+      "categoryId": 5,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-12/640/480"
+      ],
+      "stock": 43,
+      "rating": 5
+    },
+    {
+      "id": 13,
+      "title": "Ground Coffee",
+      "price": 7.5,
+      "currency": "GBP",
+      "category": "Food and Drink",
+      "categoryId": 6,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-13/640/480"
+      ],
+      "stock": 46,
+      "rating": 3
+    },
+    {
+      "id": 14,
+      "title": "Green Tea",
+      "price": 4.99,
+      "currency": "GBP",
+      "category": "Food and Drink",
+      "categoryId": 6,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-14/640/480"
+      ],
+      "stock": 49,
+      "rating": 4
+    },
+    {
+      "id": 15,
+      "title": "Laptop Stand",
+      "price": 29.99,
+      "currency": "GBP",
+      "category": "Computers",
+      "categoryId": 8,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-15/640/480"
+      ],
+      "stock": 52,
+      "rating": 5
+    },
+    {
+      "id": 16,
+      "title": "Mechanical Keyboard",
+      "price": 89,
+      "currency": "GBP",
+      "category": "Computers",
+      "categoryId": 8,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-16/640/480"
+      ],
+      "stock": 55,
+      "rating": 3
+    },
+    {
+      "id": 17,
+      "title": "Wireless Mouse",
+      "price": 24.99,
+      "currency": "GBP",
+      "category": "Computers",
+      "categoryId": 8,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-17/640/480"
+      ],
+      "stock": 58,
+      "rating": 4
+    },
+    {
+      "id": 18,
+      "title": "Cotton Hoodie",
+      "price": 42,
+      "currency": "GBP",
+      "category": "Clothing",
+      "categoryId": 3,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-18/640/480"
+      ],
+      "stock": 61,
+      "rating": 5
+    },
+    {
+      "id": 19,
+      "title": "Kitchen Scale",
+      "price": 18.5,
+      "currency": "GBP",
+      "category": "Home",
+      "categoryId": 2,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-19/640/480"
+      ],
+      "stock": 0,
+      "rating": 3
+    },
+    {
+      "id": 20,
+      "title": "Notebook Set",
+      "price": 9.99,
+      "currency": "GBP",
+      "category": "Accessories",
+      "categoryId": 7,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-20/640/480"
+      ],
+      "stock": 67,
+      "rating": 4
+    },
+    {
+      "id": 21,
+      "title": "Resistance Bands",
+      "price": 16,
+      "currency": "GBP",
+      "category": "Sports",
+      "categoryId": 5,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-21/640/480"
+      ],
+      "stock": 70,
+      "rating": 5
+    },
+    {
+      "id": 22,
+      "title": "Travel Adapter",
+      "price": 21.99,
+      "currency": "GBP",
+      "category": "Electronics",
+      "categoryId": 1,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-22/640/480"
+      ],
+      "stock": 73,
+      "rating": 3
+    },
+    {
+      "id": 23,
+      "title": "Reading Light",
+      "price": 14,
+      "currency": "GBP",
+      "category": "Home",
+      "categoryId": 2,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-23/640/480"
+      ],
+      "stock": 76,
+      "rating": 4
+    },
+    {
+      "id": 24,
+      "title": "Canvas Tote",
+      "price": 11.5,
+      "currency": "GBP",
+      "category": "Accessories",
+      "categoryId": 7,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-24/640/480"
+      ],
+      "stock": 79,
+      "rating": 5
+    },
+    {
+      "id": 25,
+      "title": "SQL Essentials",
+      "price": 26,
+      "currency": "GBP",
+      "category": "Books",
+      "categoryId": 4,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-25/640/480"
+      ],
+      "stock": 82,
+      "rating": 3
+    },
+    {
+      "id": 26,
+      "title": "Dark Chocolate",
+      "price": 3.5,
+      "currency": "GBP",
+      "category": "Food and Drink",
+      "categoryId": 6,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-26/640/480"
+      ],
+      "stock": 85,
+      "rating": 4
+    },
+    {
+      "id": 27,
+      "title": "Monitor",
+      "price": 149,
+      "currency": "GBP",
+      "category": "Computers",
+      "categoryId": 8,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-27/640/480"
+      ],
+      "stock": 88,
+      "rating": 5
+    },
+    {
+      "id": 28,
+      "title": "HDMI Cable",
+      "price": 8.5,
+      "currency": "GBP",
+      "category": "Electronics",
+      "categoryId": 1,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-28/640/480"
+      ],
+      "stock": 0,
+      "rating": 3
+    },
+    {
+      "id": 29,
+      "title": "Football",
+      "price": 19,
+      "currency": "GBP",
+      "category": "Sports",
+      "categoryId": 5,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-29/640/480"
+      ],
+      "stock": 94,
+      "rating": 4
+    },
+    {
+      "id": 30,
+      "title": "Storage Basket",
+      "price": 13.99,
+      "currency": "GBP",
+      "category": "Home",
+      "categoryId": 2,
+      "images": [
+        "https://picsum.photos/seed/fakeapi-product-30/640/480"
+      ],
+      "stock": 97,
+      "rating": 5
+    }
+  ]
+}
