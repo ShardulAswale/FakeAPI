@@ -1,0 +1,165 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Last Observatory",
+      "genres": [
+        "Drama"
+      ],
+      "year": 2010,
+      "poster": "https://picsum.photos/seed/fakeapi-movie-1/640/480",
+      "rating": 6
+    },
+    {
+      "id": 2,
+      "title": "Harbour at Dawn",
+      "genres": [
+        "Adventure",
+        "Science Fiction"
+      ],
+      "year": 2011,
+      "poster": "https://picsum.photos/seed/fakeapi-movie-2/640/480",
+      "rating": 6.7
+    },
+    {
+      "id": 3,
+      "title": "A Quiet Orbit",
+      "genres": [
+        "Mystery",
+        "Thriller"
+      ],
+      "year": 2012,
+      "poster": "https://picsum.photos/seed/fakeapi-movie-3/640/480",
+      "rating": 7.4
+    },
+    {
+      "id": 4,
+      "title": "Letters from Autumn",
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "year": 2013,
+      "poster": "https://picsum.photos/seed/fakeapi-movie-4/640/480",
+      "rating": 8.1
+    },
+    {
+      "id": 5,
+      "title": "Beyond the Blue Ridge",
+      "genres": [
+        "Drama"
+      ],
+      "year": 2014,
+      "poster": "https://picsum.photos/seed/fakeapi-movie-5/640/480",
+      "rating": 6
+    },
+    {
+      "id": 6,
+      "title": "The Paper Detective",
+      "genres": [
+        "Adventure",
+        "Science Fiction"
+      ],
+      "year": 2015,
+      "poster": "https://picsum.photos/seed/fakeapi-movie-6/640/480",
+      "rating": 6.7
+    },
+    {
+      "id": 7,
+      "title": "Winter Lanterns",
+      "genres": [
+        "Mystery",
+        "Thriller"
+      ],
+      "year": 2016,
+      "poster": "https://picsum.photos/seed/fakeapi-movie-7/640/480",
+      "rating": 7.4
+    },
+    {
+      "id": 8,
+      "title": "The Silent Expedition",
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "year": 2017,
+      "poster": "https://picsum.photos/seed/fakeapi-movie-8/640/480",
+      "rating": 8.1
+    },
+    {
+      "id": 9,
+      "title": "Tomorrow's Garden",
+      "genres": [
+        "Drama"
+      ],
+      "year": 2018,
+      "poster": "https://picsum.photos/seed/fakeapi-movie-9/640/480",
+      "rating": 6
+    },
+    {
+      "id": 10,
+      "title": "A Map of Stars",
+      "genres": [
+        "Adventure",
+        "Science Fiction"
+      ],
+      "year": 2019,
+      "poster": "https://picsum.photos/seed/fakeapi-movie-10/640/480",
+      "rating": 6.7
+    },
+    {
+      "id": 11,
+      "title": "The Amber Train",
+      "genres": [
+        "Mystery",
+        "Thriller"
+      ],
+      "year": 2020,
+      "poster": "https://picsum.photos/seed/fakeapi-movie-11/640/480",
+      "rating": 7.4
+    },
+    {
+      "id": 12,
+      "title": "City of Echoes",
+      "genres": [
+        "Comedy",
+        "Romance"
+      ],
+      "year": 2021,
+      "poster": "https://picsum.photos/seed/fakeapi-movie-12/640/480",
+      "rating": 8.1
+    },
+    {
+      "id": 13,
+      "title": "A Second Horizon",
+      "genres": [
+        "Drama"
+      ],
+      "year": 2022,
+      "poster": "https://picsum.photos/seed/fakeapi-movie-13/640/480",
+      "rating": 6
+    },
+    {
+      "id": 14,
+      "title": "The Clockmaker's Guest",
+      "genres": [
+        "Adventure",
+        "Science Fiction"
+      ],
+      "year": 2023,
+      "poster": "https://picsum.photos/seed/fakeapi-movie-14/640/480",
+      "rating": 6.7
+    },
+    {
+      "id": 15,
+      "title": "Summer on the Canal",
+      "genres": [
+        "Mystery",
+        "Thriller"
+      ],
+      "year": 2024,
+      "poster": "https://picsum.photos/seed/fakeapi-movie-15/640/480",
+      "rating": 7.4
+    }
+  ]
+}
