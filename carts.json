@@ -1,0 +1,289 @@
+{
+  "carts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "items": [
+        {
+          "productId": 3,
+          "quantity": 1,
+          "unitPrice": 19.99
+        },
+        {
+          "productId": 10,
+          "quantity": 2,
+          "unitPrice": 32.5
+        }
+      ],
+      "quantity": 3,
+      "total": 84.99,
+      "currency": "GBP"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "items": [
+        {
+          "productId": 4,
+          "quantity": 1,
+          "unitPrice": 24.5
+        },
+        {
+          "productId": 11,
+          "quantity": 2,
+          "unitPrice": 22
+        }
+      ],
+      "quantity": 3,
+      "total": 68.5,
+      "currency": "GBP"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "items": [
+        {
+          "productId": 5,
+          "quantity": 1,
+          "unitPrice": 8.99
+        },
+        {
+          "productId": 12,
+          "quantity": 2,
+          "unitPrice": 12.99
+        }
+      ],
+      "quantity": 3,
+      "total": 34.97,
+      "currency": "GBP"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "items": [
+        {
+          "productId": 6,
+          "quantity": 1,
+          "unitPrice": 15
+        },
+        {
+          "productId": 13,
+          "quantity": 2,
+          "unitPrice": 7.5
+        }
+      ],
+      "quantity": 3,
+      "total": 30,
+      "currency": "GBP"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "items": [
+        {
+          "productId": 7,
+          "quantity": 1,
+          "unitPrice": 55
+        },
+        {
+          "productId": 14,
+          "quantity": 2,
+          "unitPrice": 4.99
+        }
+      ],
+      "quantity": 3,
+      "total": 64.98,
+      "currency": "GBP"
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "items": [
+        {
+          "productId": 8,
+          "quantity": 1,
+          "unitPrice": 35
+        },
+        {
+          "productId": 15,
+          "quantity": 2,
+          "unitPrice": 29.99
+        }
+      ],
+      "quantity": 3,
+      "total": 94.98,
+      "currency": "GBP"
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "items": [
+        {
+          "productId": 9,
+          "quantity": 1,
+          "unitPrice": 28.99
+        },
+        {
+          "productId": 16,
+          "quantity": 2,
+          "unitPrice": 89
+        }
+      ],
+      "quantity": 3,
+      "total": 206.99,
+      "currency": "GBP"
+    },
+    {
+      "id": 8,
+      "userId": 8,
+      "items": [
+        {
+          "productId": 10,
+          "quantity": 1,
+          "unitPrice": 32.5
+        },
+        {
+          "productId": 17,
+          "quantity": 2,
+          "unitPrice": 24.99
+        }
+      ],
+      "quantity": 3,
+      "total": 82.48,
+      "currency": "GBP"
+    },
+    {
+      "id": 9,
+      "userId": 9,
+      "items": [
+        {
+          "productId": 11,
+          "quantity": 1,
+          "unitPrice": 22
+        },
+        {
+          "productId": 18,
+          "quantity": 2,
+          "unitPrice": 42
+        }
+      ],
+      "quantity": 3,
+      "total": 106,
+      "currency": "GBP"
+    },
+    {
+      "id": 10,
+      "userId": 10,
+      "items": [
+        {
+          "productId": 12,
+          "quantity": 1,
+          "unitPrice": 12.99
+        },
+        {
+          "productId": 19,
+          "quantity": 2,
+          "unitPrice": 18.5
+        }
+      ],
+      "quantity": 3,
+      "total": 49.99,
+      "currency": "GBP"
+    },
+    {
+      "id": 11,
+      "userId": 11,
+      "items": [
+        {
+          "productId": 13,
+          "quantity": 1,
+          "unitPrice": 7.5
+        },
+        {
+          "productId": 20,
+          "quantity": 2,
+          "unitPrice": 9.99
+        }
+      ],
+      "quantity": 3,
+      "total": 27.48,
+      "currency": "GBP"
+    },
+    {
+      "id": 12,
+      "userId": 12,
+      "items": [
+        {
+          "productId": 14,
+          "quantity": 1,
+          "unitPrice": 4.99
+        },
+        {
+          "productId": 21,
+          "quantity": 2,
+          "unitPrice": 16
+        }
+      ],
+      "quantity": 3,
+      "total": 36.99,
+      "currency": "GBP"
+    },
+    {
+      "id": 13,
+      "userId": 13,
+      "items": [
+        {
+          "productId": 15,
+          "quantity": 1,
+          "unitPrice": 29.99
+        },
+        {
+          "productId": 22,
+          "quantity": 2,
+          "unitPrice": 21.99
+        }
+      ],
+      "quantity": 3,
+      "total": 73.97,
+      "currency": "GBP"
+    },
+    {
+      "id": 14,
+      "userId": 14,
+      "items": [
+        {
+          "productId": 16,
+          "quantity": 1,
+          "unitPrice": 89
+        },
+        {
+          "productId": 23,
+          "quantity": 2,
+          "unitPrice": 14
+        }
+      ],
+      "quantity": 3,
+      "total": 117,
+      "currency": "GBP"
+    },
+    {
+      "id": 15,
+      "userId": 15,
+      "items": [
+        {
+          "productId": 17,
+          "quantity": 1,
+          "unitPrice": 24.99
+        },
+        {
+          "productId": 24,
+          "quantity": 2,
+          "unitPrice": 11.5
+        }
+      ],
+      "quantity": 3,
+      "total": 47.99,
+      "currency": "GBP"
+    }
+  ]
+}
