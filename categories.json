@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "slug": "electronics",
+      "parentId": null
+    },
+    {
+      "id": 2,
+      "name": "Home",
+      "slug": "home",
+      "parentId": null
+    },
+    {
+      "id": 3,
+      "name": "Clothing",
+      "slug": "clothing",
+      "parentId": null
+    },
+    {
+      "id": 4,
+      "name": "Books",
+      "slug": "books",
+      "parentId": null
+    },
+    {
+      "id": 5,
+      "name": "Sports",
+      "slug": "sports",
+      "parentId": null
+    },
+    {
+      "id": 6,
+      "name": "Food and Drink",
+      "slug": "food-and-drink",
+      "parentId": null
+    },
+    {
+      "id": 7,
+      "name": "Accessories",
+      "slug": "accessories",
+      "parentId": null
+    },
+    {
+      "id": 8,
+      "name": "Computers",
+      "slug": "computers",
+      "parentId": 1
+    }
+  ]
+}
