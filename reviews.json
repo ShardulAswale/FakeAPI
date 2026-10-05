@@ -1,0 +1,424 @@
+{
+  "reviews": [
+    {
+      "id": 1,
+      "productId": 1,
+      "userId": 1,
+      "rating": 3,
+      "comment": "Useful for everyday use."
+    },
+    {
+      "id": 2,
+      "productId": 2,
+      "userId": 2,
+      "rating": 4,
+      "comment": "Good quality and straightforward to use."
+    },
+    {
+      "id": 3,
+      "productId": 3,
+      "userId": 3,
+      "rating": 5,
+      "comment": "Matches the description."
+    },
+    {
+      "id": 4,
+      "productId": 4,
+      "userId": 4,
+      "rating": 3,
+      "comment": "Comfortable and well made."
+    },
+    {
+      "id": 5,
+      "productId": 5,
+      "userId": 5,
+      "rating": 4,
+      "comment": "Reasonable value for the price."
+    },
+    {
+      "id": 6,
+      "productId": 6,
+      "userId": 6,
+      "rating": 5,
+      "comment": "Useful for everyday use."
+    },
+    {
+      "id": 7,
+      "productId": 7,
+      "userId": 7,
+      "rating": 3,
+      "comment": "Good quality and straightforward to use."
+    },
+    {
+      "id": 8,
+      "productId": 8,
+      "userId": 8,
+      "rating": 4,
+      "comment": "Matches the description."
+    },
+    {
+      "id": 9,
+      "productId": 9,
+      "userId": 9,
+      "rating": 5,
+      "comment": "Comfortable and well made."
+    },
+    {
+      "id": 10,
+      "productId": 10,
+      "userId": 10,
+      "rating": 3,
+      "comment": "Reasonable value for the price."
+    },
+    {
+      "id": 11,
+      "productId": 11,
+      "userId": 11,
+      "rating": 4,
+      "comment": "Useful for everyday use."
+    },
+    {
+      "id": 12,
+      "productId": 12,
+      "userId": 12,
+      "rating": 5,
+      "comment": "Good quality and straightforward to use."
+    },
+    {
+      "id": 13,
+      "productId": 13,
+      "userId": 13,
+      "rating": 3,
+      "comment": "Matches the description."
+    },
+    {
+      "id": 14,
+      "productId": 14,
+      "userId": 14,
+      "rating": 4,
+      "comment": "Comfortable and well made."
+    },
+    {
+      "id": 15,
+      "productId": 15,
+      "userId": 15,
+      "rating": 5,
+      "comment": "Reasonable value for the price."
+    },
+    {
+      "id": 16,
+      "productId": 16,
+      "userId": 16,
+      "rating": 3,
+      "comment": "Useful for everyday use."
+    },
+    {
+      "id": 17,
+      "productId": 17,
+      "userId": 17,
+      "rating": 4,
+      "comment": "Good quality and straightforward to use."
+    },
+    {
+      "id": 18,
+      "productId": 18,
+      "userId": 18,
+      "rating": 5,
+      "comment": "Matches the description."
+    },
+    {
+      "id": 19,
+      "productId": 19,
+      "userId": 19,
+      "rating": 3,
+      "comment": "Comfortable and well made."
+    },
+    {
+      "id": 20,
+      "productId": 20,
+      "userId": 20,
+      "rating": 4,
+      "comment": "Reasonable value for the price."
+    },
+    {
+      "id": 21,
+      "productId": 21,
+      "userId": 1,
+      "rating": 5,
+      "comment": "Useful for everyday use."
+    },
+    {
+      "id": 22,
+      "productId": 22,
+      "userId": 2,
+      "rating": 3,
+      "comment": "Good quality and straightforward to use."
+    },
+    {
+      "id": 23,
+      "productId": 23,
+      "userId": 3,
+      "rating": 4,
+      "comment": "Matches the description."
+    },
+    {
+      "id": 24,
+      "productId": 24,
+      "userId": 4,
+      "rating": 5,
+      "comment": "Comfortable and well made."
+    },
+    {
+      "id": 25,
+      "productId": 25,
+      "userId": 5,
+      "rating": 3,
+      "comment": "Reasonable value for the price."
+    },
+    {
+      "id": 26,
+      "productId": 26,
+      "userId": 6,
+      "rating": 4,
+      "comment": "Useful for everyday use."
+    },
+    {
+      "id": 27,
+      "productId": 27,
+      "userId": 7,
+      "rating": 5,
+      "comment": "Good quality and straightforward to use."
+    },
+    {
+      "id": 28,
+      "productId": 28,
+      "userId": 8,
+      "rating": 3,
+      "comment": "Matches the description."
+    },
+    {
+      "id": 29,
+      "productId": 29,
+      "userId": 9,
+      "rating": 4,
+      "comment": "Comfortable and well made."
+    },
+    {
+      "id": 30,
+      "productId": 30,
+      "userId": 10,
+      "rating": 5,
+      "comment": "Reasonable value for the price."
+    },
+    {
+      "id": 31,
+      "productId": 1,
+      "userId": 11,
+      "rating": 3,
+      "comment": "Useful for everyday use."
+    },
+    {
+      "id": 32,
+      "productId": 2,
+      "userId": 12,
+      "rating": 4,
+      "comment": "Good quality and straightforward to use."
+    },
+    {
+      "id": 33,
+      "productId": 3,
+      "userId": 13,
+      "rating": 5,
+      "comment": "Matches the description."
+    },
+    {
+      "id": 34,
+      "productId": 4,
+      "userId": 14,
+      "rating": 3,
+      "comment": "Comfortable and well made."
+    },
+    {
+      "id": 35,
+      "productId": 5,
+      "userId": 15,
+      "rating": 4,
+      "comment": "Reasonable value for the price."
+    },
+    {
+      "id": 36,
+      "productId": 6,
+      "userId": 16,
+      "rating": 5,
+      "comment": "Useful for everyday use."
+    },
+    {
+      "id": 37,
+      "productId": 7,
+      "userId": 17,
+      "rating": 3,
+      "comment": "Good quality and straightforward to use."
+    },
+    {
+      "id": 38,
+      "productId": 8,
+      "userId": 18,
+      "rating": 4,
+      "comment": "Matches the description."
+    },
+    {
+      "id": 39,
+      "productId": 9,
+      "userId": 19,
+      "rating": 5,
+      "comment": "Comfortable and well made."
+    },
+    {
+      "id": 40,
+      "productId": 10,
+      "userId": 20,
+      "rating": 3,
+      "comment": "Reasonable value for the price."
+    },
+    {
+      "id": 41,
+      "productId": 11,
+      "userId": 1,
+      "rating": 4,
+      "comment": "Useful for everyday use."
+    },
+    {
+      "id": 42,
+      "productId": 12,
+      "userId": 2,
+      "rating": 5,
+      "comment": "Good quality and straightforward to use."
+    },
+    {
+      "id": 43,
+      "productId": 13,
+      "userId": 3,
+      "rating": 3,
+      "comment": "Matches the description."
+    },
+    {
+      "id": 44,
+      "productId": 14,
+      "userId": 4,
+      "rating": 4,
+      "comment": "Comfortable and well made."
+    },
+    {
+      "id": 45,
+      "productId": 15,
+      "userId": 5,
+      "rating": 5,
+      "comment": "Reasonable value for the price."
+    },
+    {
+      "id": 46,
+      "productId": 16,
+      "userId": 6,
+      "rating": 3,
+      "comment": "Useful for everyday use."
+    },
+    {
+      "id": 47,
+      "productId": 17,
+      "userId": 7,
+      "rating": 4,
+      "comment": "Good quality and straightforward to use."
+    },
+    {
+      "id": 48,
+      "productId": 18,
+      "userId": 8,
+      "rating": 5,
+      "comment": "Matches the description."
+    },
+    {
+      "id": 49,
+      "productId": 19,
+      "userId": 9,
+      "rating": 3,
+      "comment": "Comfortable and well made."
+    },
+    {
+      "id": 50,
+      "productId": 20,
+      "userId": 10,
+      "rating": 4,
+      "comment": "Reasonable value for the price."
+    },
+    {
+      "id": 51,
+      "productId": 21,
+      "userId": 11,
+      "rating": 5,
+      "comment": "Useful for everyday use."
+    },
+    {
+      "id": 52,
+      "productId": 22,
+      "userId": 12,
+      "rating": 3,
+      "comment": "Good quality and straightforward to use."
+    },
+    {
+      "id": 53,
+      "productId": 23,
+      "userId": 13,
+      "rating": 4,
+      "comment": "Matches the description."
+    },
+    {
+      "id": 54,
+      "productId": 24,
+      "userId": 14,
+      "rating": 5,
+      "comment": "Comfortable and well made."
+    },
+    {
+      "id": 55,
+      "productId": 25,
+      "userId": 15,
+      "rating": 3,
+      "comment": "Reasonable value for the price."
+    },
+    {
+      "id": 56,
+      "productId": 26,
+      "userId": 16,
+      "rating": 4,
+      "comment": "Useful for everyday use."
+    },
+    {
+      "id": 57,
+      "productId": 27,
+      "userId": 17,
+      "rating": 5,
+      "comment": "Good quality and straightforward to use."
+    },
+    {
+      "id": 58,
+      "productId": 28,
+      "userId": 18,
+      "rating": 3,
+      "comment": "Matches the description."
+    },
+    {
+      "id": 59,
+      "productId": 29,
+      "userId": 19,
+      "rating": 4,
+      "comment": "Comfortable and well made."
+    },
+    {
+      "id": 60,
+      "productId": 30,
+      "userId": 20,
+      "rating": 5,
+      "comment": "Reasonable value for the price."
+    }
+  ]
+}
