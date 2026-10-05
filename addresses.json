@@ -1,0 +1,164 @@
+{
+  "addresses": [
+    {
+      "id": 1,
+      "userId": 1,
+      "street": "1 Example Road",
+      "city": "London",
+      "postcode": "E1 6AN",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "street": "2 Example Road",
+      "city": "Manchester",
+      "postcode": "M1 1AE",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "street": "3 Example Road",
+      "city": "Birmingham",
+      "postcode": "B1 1AA",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "street": "4 Example Road",
+      "city": "Leeds",
+      "postcode": "LS1 1UR",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "street": "5 Example Road",
+      "city": "Bristol",
+      "postcode": "BS1 1AD",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "street": "6 Example Road",
+      "city": "Edinburgh",
+      "postcode": "EH1 1YZ",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "street": "7 Example Road",
+      "city": "Glasgow",
+      "postcode": "G1 1XW",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 8,
+      "userId": 8,
+      "street": "8 Example Road",
+      "city": "Cardiff",
+      "postcode": "CF10 1EP",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 9,
+      "userId": 9,
+      "street": "9 Example Road",
+      "city": "Liverpool",
+      "postcode": "L1 1JE",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 10,
+      "userId": 10,
+      "street": "10 Example Road",
+      "city": "Newcastle",
+      "postcode": "NE1 1EE",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 11,
+      "userId": 11,
+      "street": "11 Example Road",
+      "city": "London",
+      "postcode": "E1 6AN",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 12,
+      "userId": 12,
+      "street": "12 Example Road",
+      "city": "Manchester",
+      "postcode": "M1 1AE",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 13,
+      "userId": 13,
+      "street": "13 Example Road",
+      "city": "Birmingham",
+      "postcode": "B1 1AA",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 14,
+      "userId": 14,
+      "street": "14 Example Road",
+      "city": "Leeds",
+      "postcode": "LS1 1UR",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 15,
+      "userId": 15,
+      "street": "15 Example Road",
+      "city": "Bristol",
+      "postcode": "BS1 1AD",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 16,
+      "userId": 16,
+      "street": "16 Example Road",
+      "city": "Edinburgh",
+      "postcode": "EH1 1YZ",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 17,
+      "userId": 17,
+      "street": "17 Example Road",
+      "city": "Glasgow",
+      "postcode": "G1 1XW",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 18,
+      "userId": 18,
+      "street": "18 Example Road",
+      "city": "Cardiff",
+      "postcode": "CF10 1EP",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 19,
+      "userId": 19,
+      "street": "19 Example Road",
+      "city": "Liverpool",
+      "postcode": "L1 1JE",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 20,
+      "userId": 20,
+      "street": "20 Example Road",
+      "city": "Newcastle",
+      "postcode": "NE1 1EE",
+      "country": "United Kingdom"
+    }
+  ]
+}
