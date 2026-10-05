@@ -1,81 +1,146 @@
 # FakeAPI
 
-Static JSON data for frontend development, prototypes and HTTP fetch examples. GitHub Pages serves the files directly.
+Read-only JSON datasets for frontend development, interface testing and prototypes. GitHub Pages serves each file directly.
 
 ## Server
 
 Base URL: `https://shardulaswale.github.io/FakeAPI`
 
-No authentication is required.
+Authentication: None. Supported operation: `GET`.
 
 ## Endpoints
 
-| Method | Path | Description |
-| --- | --- | --- |
-| GET | [/todos.json](https://shardulaswale.github.io/FakeAPI/todos.json) | Retrieve all 200 todo records. |
+Each successful request returns a JSON object with a named array, for example `{ "products": [...] }`. Counts describe the current fixtures.
 
-### GET /todos.json
+| Method | Path | Response array | Records |
+| --- | --- | --- | --- |
+| GET | [/users.json](https://shardulaswale.github.io/FakeAPI/users.json) | `users` | 20 |
+| GET | [/products.json](https://shardulaswale.github.io/FakeAPI/products.json) | `products` | 30 |
+| GET | [/categories.json](https://shardulaswale.github.io/FakeAPI/categories.json) | `categories` | 8 |
+| GET | [/orders.json](https://shardulaswale.github.io/FakeAPI/orders.json) | `orders` | 30 |
+| GET | [/carts.json](https://shardulaswale.github.io/FakeAPI/carts.json) | `carts` | 15 |
+| GET | [/reviews.json](https://shardulaswale.github.io/FakeAPI/reviews.json) | `reviews` | 60 |
+| GET | [/posts.json](https://shardulaswale.github.io/FakeAPI/posts.json) | `posts` | 30 |
+| GET | [/comments.json](https://shardulaswale.github.io/FakeAPI/comments.json) | `comments` | 60 |
+| GET | [/todos.json](https://shardulaswale.github.io/FakeAPI/todos.json) | `todos` | 200 |
+| GET | [/employees.json](https://shardulaswale.github.io/FakeAPI/employees.json) | `employees` | 12 |
+| GET | [/companies.json](https://shardulaswale.github.io/FakeAPI/companies.json) | `companies` | 6 |
+| GET | [/contacts.json](https://shardulaswale.github.io/FakeAPI/contacts.json) | `contacts` | 20 |
+| GET | [/addresses.json](https://shardulaswale.github.io/FakeAPI/addresses.json) | `addresses` | 20 |
+| GET | [/notifications.json](https://shardulaswale.github.io/FakeAPI/notifications.json) | `notifications` | 40 |
+| GET | [/messages.json](https://shardulaswale.github.io/FakeAPI/messages.json) | `messages` | 40 |
+| GET | [/events.json](https://shardulaswale.github.io/FakeAPI/events.json) | `events` | 15 |
+| GET | [/jobs.json](https://shardulaswale.github.io/FakeAPI/jobs.json) | `jobs` | 18 |
+| GET | [/transactions.json](https://shardulaswale.github.io/FakeAPI/transactions.json) | `transactions` | 24 |
+| GET | [/tickets.json](https://shardulaswale.github.io/FakeAPI/tickets.json) | `tickets` | 20 |
+| GET | [/movies.json](https://shardulaswale.github.io/FakeAPI/movies.json) | `movies` | 15 |
+| GET | [/recipes.json](https://shardulaswale.github.io/FakeAPI/recipes.json) | `recipes` | 10 |
+| GET | [/weather.json](https://shardulaswale.github.io/FakeAPI/weather.json) | `weather` | 10 |
 
-**Parameters:** None.
+## Response fields
 
-**Successful response:** `200 OK`, JSON object containing a `todos` array.
+| Resource | Fields |
+| --- | --- |
+| `users` | `id`, `name`, `email`, `avatar`, `role` |
+| `products` | `id`, `title`, `price`, `currency`, `category`, `categoryId`, `images`, `stock`, `rating` |
+| `categories` | `id`, `name`, `slug`, `parentId` |
+| `orders` | `id`, `userId`, `items`, `total`, `currency`, `status`, `createdAt` |
+| `carts` | `id`, `userId`, `items`, `quantity`, `total`, `currency` |
+| `reviews` | `id`, `productId`, `userId`, `rating`, `comment` |
+| `posts` | `id`, `userId`, `title`, `body`, `tags`, `createdAt` |
+| `comments` | `id`, `postId`, `userId`, `body`, `createdAt` |
+| `todos` | id, userId, title, completed |
+| `employees` | `id`, `name`, `department`, `jobTitle`, `managerId` |
+| `companies` | `id`, `name`, `industry`, `website`, `address` |
+| `contacts` | `id`, `name`, `email`, `phone`, `companyId` |
+| `addresses` | `id`, `userId`, `street`, `city`, `postcode`, `country` |
+| `notifications` | `id`, `userId`, `title`, `message`, `read`, `createdAt` |
+| `messages` | `id`, `senderId`, `receiverId`, `body`, `sentAt` |
+| `events` | `id`, `title`, `startAt`, `endAt`, `location` |
+| `jobs` | `id`, `companyId`, `title`, `location`, `salary`, `skills` |
+| `transactions` | `id`, `userId`, `orderId`, `amount`, `currency`, `type`, `status`, `createdAt` |
+| `tickets` | `id`, `userId`, `subject`, `priority`, `status` |
+| `movies` | `id`, `title`, `genres`, `year`, `poster`, `rating` |
+| `recipes` | `id`, `title`, `ingredients`, `steps`, `prepMinutes`, `cookMinutes`, `servings` |
+| `weather` | `city`, `temperature`, `temperatureUnit`, `humidity`, `condition`, `observedAt` |
 
-Response example, shortened to one record:
+Identifiers and quantities are integers. Prices, amounts and ratings are numbers. Flags such as `completed` and `read` are booleans. Dates use ISO 8601 UTC strings. Money uses GBP. Ratings use a 1–5 scale for products and reviews, and a 1–10 scale for movies.
+
+### Nested objects
+
+| Field | Structure |
+| --- | --- |
+| `orders[].items[]`, `carts[].items[]` | `productId`, `quantity`, `unitPrice` |
+| `companies[].address` | `street`, `city`, `postcode`, `country` |
+| `jobs[].salary` | `min`, `max`, `currency`, `period` |
+| `products[].images` | Array of image URL strings. |
+| `posts[].tags`, `jobs[].skills`, `movies[].genres` | Arrays of strings. |
+| `recipes[].ingredients`, `recipes[].steps` | Arrays of strings. |
+
+`parentId` and `managerId` are `null` for top-level categories and the top-level employee. Cart `quantity` is the sum of item quantities; order and cart `total` is the sum of quantity multiplied by unit price.
+
+## Example response
+
+`GET /users.json` returns `200 OK`. Shortened example:
 
 ```json
 {
-  "todos": [
+  "users": [
     {
-      "userId": 1,
       "id": 1,
-      "title": "delectus aut autem",
-      "completed": false
+      "name": "Alex Morgan",
+      "email": "user1@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-1/640/480",
+      "role": "admin"
     }
   ]
 }
 ```
-
-### Response schema
-
-| Field | Type | Description |
-| --- | --- | --- |
-| todos | array of Todo | Complete todo collection. |
-| todos[].id | integer | Todo identifier. |
-| todos[].userId | integer | User identifier associated with the todo. |
-| todos[].title | string | Task description. |
-| todos[].completed | boolean | Whether the task is complete. |
 
 ## Request examples
 
 ### cURL
 
 ```sh
-curl https://shardulaswale.github.io/FakeAPI/todos.json
+curl https://shardulaswale.github.io/FakeAPI/products.json
 ```
 
 ### JavaScript
 
 ```js
-const response = await fetch(
-  "https://shardulaswale.github.io/FakeAPI/todos.json"
-);
+const baseUrl = "https://shardulaswale.github.io/FakeAPI";
+const response = await fetch(`${baseUrl}/products.json`);
 
 if (!response.ok) {
   throw new Error(`Request failed: ${response.status}`);
 }
 
-const { todos } = await response.json();
-console.log(todos);
+const { products } = await response.json();
+const inStock = products.filter(product => product.stock > 0);
+console.log(inStock);
 ```
 
-## Behaviour
+## Relationships
 
-- Read-only static data; POST, PUT, PATCH and DELETE operations are not supported.
-- No server-side filtering, pagination or individual-record routes. Filter the downloaded array in your application.
-- Unknown file paths return a GitHub Pages 404 page, not a JSON error response.
-- Dataset changes are made by committing the JSON file and allowing GitHub Pages to redeploy.
-- This README documents the endpoints. It does not provide interactive Swagger UI.
+- `userId`, `senderId` and `receiverId` refer to `users[].id`.
+- `productId` refers to `products[].id`; `categoryId` refers to `categories[].id`.
+- `postId` refers to `posts[].id`; `companyId` refers to `companies[].id`.
+- `orderId` refers to `orders[].id`.
+- `managerId` refers to `employees[].id`; `parentId` refers to `categories[].id`.
+
+Load the related files and join or filter their arrays in your application.
+
+## Behaviour and data notes
+
+- Files are static. POST, PUT, PATCH and DELETE are not supported.
+- Query parameters do not provide server-side filtering or pagination. Individual-record routes are not implemented.
+- Unknown file paths return a GitHub Pages 404 page rather than a JSON error object.
+- The added records are fictional fixtures. Weather is a fixed sample, not live observations; jobs, events and transactions are not real listings or activity.
+- Email and company website fields use example domains. Phone fields use UK numbers reserved for fictional use.
+- Image URLs provide generic placeholders through Picsum; they do not depict the named people, products or movies.
+- The existing 200-record todo dataset is preserved.
+- This README is endpoint documentation, not interactive Swagger UI.
 
 ## Deployment
 
-Publish the `main` branch from the repository root through GitHub Pages. Data remains accessible at its direct `.json` URL when a README is present.
+Publish the `main` branch from the repository root through GitHub Pages. JSON files remain accessible at their direct `.json` URLs when a README is present. Commit fixture changes and allow the Pages deployment to complete.
