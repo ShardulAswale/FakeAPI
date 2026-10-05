@@ -1,0 +1,84 @@
+{
+  "weather": [
+    {
+      "city": "London",
+      "temperature": 12,
+      "temperatureUnit": "celsius",
+      "humidity": 55,
+      "condition": "Cloudy",
+      "observedAt": "2026-09-01T09:00:00Z"
+    },
+    {
+      "city": "Manchester",
+      "temperature": 13,
+      "temperatureUnit": "celsius",
+      "humidity": 58,
+      "condition": "Sunny",
+      "observedAt": "2026-09-01T09:00:00Z"
+    },
+    {
+      "city": "Birmingham",
+      "temperature": 14,
+      "temperatureUnit": "celsius",
+      "humidity": 61,
+      "condition": "Light rain",
+      "observedAt": "2026-09-01T09:00:00Z"
+    },
+    {
+      "city": "Leeds",
+      "temperature": 15,
+      "temperatureUnit": "celsius",
+      "humidity": 64,
+      "condition": "Partly cloudy",
+      "observedAt": "2026-09-01T09:00:00Z"
+    },
+    {
+      "city": "Bristol",
+      "temperature": 16,
+      "temperatureUnit": "celsius",
+      "humidity": 67,
+      "condition": "Cloudy",
+      "observedAt": "2026-09-01T09:00:00Z"
+    },
+    {
+      "city": "Edinburgh",
+      "temperature": 17,
+      "temperatureUnit": "celsius",
+      "humidity": 70,
+      "condition": "Sunny",
+      "observedAt": "2026-09-01T09:00:00Z"
+    },
+    {
+      "city": "Glasgow",
+      "temperature": 18,
+      "temperatureUnit": "celsius",
+      "humidity": 73,
+      "condition": "Light rain",
+      "observedAt": "2026-09-01T09:00:00Z"
+    },
+    {
+      "city": "Cardiff",
+      "temperature": 19,
+      "temperatureUnit": "celsius",
+      "humidity": 76,
+      "condition": "Partly cloudy",
+      "observedAt": "2026-09-01T09:00:00Z"
+    },
+    {
+      "city": "Liverpool",
+      "temperature": 20,
+      "temperatureUnit": "celsius",
+      "humidity": 79,
+      "condition": "Cloudy",
+      "observedAt": "2026-09-01T09:00:00Z"
+    },
+    {
+      "city": "Newcastle",
+      "temperature": 21,
+      "temperatureUnit": "celsius",
+      "humidity": 82,
+      "condition": "Sunny",
+      "observedAt": "2026-09-01T09:00:00Z"
+    }
+  ]
+}
