@@ -1,0 +1,144 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alex Morgan",
+      "email": "user1@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-1/640/480",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Sam Patel",
+      "email": "user2@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-2/640/480",
+      "role": "editor"
+    },
+    {
+      "id": 3,
+      "name": "Jordan Lee",
+      "email": "user3@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-3/640/480",
+      "role": "editor"
+    },
+    {
+      "id": 4,
+      "name": "Taylor Brown",
+      "email": "user4@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-4/640/480",
+      "role": "user"
+    },
+    {
+      "id": 5,
+      "name": "Jamie Wilson",
+      "email": "user5@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-5/640/480",
+      "role": "user"
+    },
+    {
+      "id": 6,
+      "name": "Casey Ahmed",
+      "email": "user6@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-6/640/480",
+      "role": "user"
+    },
+    {
+      "id": 7,
+      "name": "Riley Chen",
+      "email": "user7@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-7/640/480",
+      "role": "user"
+    },
+    {
+      "id": 8,
+      "name": "Morgan Davies",
+      "email": "user8@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-8/640/480",
+      "role": "user"
+    },
+    {
+      "id": 9,
+      "name": "Avery Singh",
+      "email": "user9@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-9/640/480",
+      "role": "user"
+    },
+    {
+      "id": 10,
+      "name": "Cameron Evans",
+      "email": "user10@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-10/640/480",
+      "role": "user"
+    },
+    {
+      "id": 11,
+      "name": "Drew Walker",
+      "email": "user11@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-11/640/480",
+      "role": "user"
+    },
+    {
+      "id": 12,
+      "name": "Robin Clarke",
+      "email": "user12@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-12/640/480",
+      "role": "user"
+    },
+    {
+      "id": 13,
+      "name": "Harper Wright",
+      "email": "user13@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-13/640/480",
+      "role": "user"
+    },
+    {
+      "id": 14,
+      "name": "Quinn Thompson",
+      "email": "user14@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-14/640/480",
+      "role": "user"
+    },
+    {
+      "id": 15,
+      "name": "Parker Lewis",
+      "email": "user15@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-15/640/480",
+      "role": "user"
+    },
+    {
+      "id": 16,
+      "name": "Rowan Shah",
+      "email": "user16@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-16/640/480",
+      "role": "user"
+    },
+    {
+      "id": 17,
+      "name": "Reese Martin",
+      "email": "user17@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-17/640/480",
+      "role": "user"
+    },
+    {
+      "id": 18,
+      "name": "Skyler Jones",
+      "email": "user18@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-18/640/480",
+      "role": "user"
+    },
+    {
+      "id": 19,
+      "name": "Finley Roberts",
+      "email": "user19@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-19/640/480",
+      "role": "user"
+    },
+    {
+      "id": 20,
+      "name": "Blake Green",
+      "email": "user20@example.com",
+      "avatar": "https://picsum.photos/seed/fakeapi-avatar-20/640/480",
+      "role": "user"
+    }
+  ]
+}
