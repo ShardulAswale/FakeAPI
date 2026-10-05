@@ -1,0 +1,184 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Tomato Pasta",
+      "ingredients": [
+        "200 g pasta",
+        "300 g chopped tomatoes",
+        "1 tbsp olive oil",
+        "1 garlic clove"
+      ],
+      "steps": [
+        "Cook the pasta until tender.",
+        "Warm the oil and gently cook the chopped garlic.",
+        "Add tomatoes and simmer for 10 minutes.",
+        "Combine with the drained pasta."
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 20,
+      "servings": 2
+    },
+    {
+      "id": 2,
+      "title": "Chickpea Salad",
+      "ingredients": [
+        "400 g drained chickpeas",
+        "1 cucumber",
+        "2 tomatoes",
+        "1 tbsp lemon juice"
+      ],
+      "steps": [
+        "Rinse the chickpeas.",
+        "Chop the cucumber and tomatoes.",
+        "Mix all ingredients and serve."
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 0,
+      "servings": 2
+    },
+    {
+      "id": 3,
+      "title": "Vegetable Stir Fry",
+      "ingredients": [
+        "1 bell pepper",
+        "1 carrot",
+        "150 g broccoli",
+        "1 tbsp soy sauce",
+        "1 tbsp oil"
+      ],
+      "steps": [
+        "Slice the vegetables.",
+        "Heat the oil in a pan.",
+        "Stir fry the vegetables until tender.",
+        "Add soy sauce and mix."
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 10,
+      "servings": 2
+    },
+    {
+      "id": 4,
+      "title": "Overnight Oats",
+      "ingredients": [
+        "50 g oats",
+        "150 ml milk",
+        "1 banana"
+      ],
+      "steps": [
+        "Combine the oats and milk.",
+        "Refrigerate overnight.",
+        "Top with sliced banana before serving."
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 0,
+      "servings": 2
+    },
+    {
+      "id": 5,
+      "title": "Lentil Soup",
+      "ingredients": [
+        "150 g red lentils",
+        "1 onion",
+        "1 carrot",
+        "700 ml vegetable stock"
+      ],
+      "steps": [
+        "Rinse the lentils and chop the vegetables.",
+        "Combine ingredients in a saucepan.",
+        "Simmer for 25 minutes until soft."
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "servings": 2
+    },
+    {
+      "id": 6,
+      "title": "Avocado Toast",
+      "ingredients": [
+        "2 slices bread",
+        "1 avocado",
+        "1 tsp lemon juice"
+      ],
+      "steps": [
+        "Toast the bread.",
+        "Mash the avocado with lemon juice.",
+        "Spread on the toast."
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 0,
+      "servings": 2
+    },
+    {
+      "id": 7,
+      "title": "Vegetable Couscous",
+      "ingredients": [
+        "150 g couscous",
+        "200 ml hot vegetable stock",
+        "1 bell pepper",
+        "1 cucumber"
+      ],
+      "steps": [
+        "Pour hot stock over couscous and cover for 5 minutes.",
+        "Chop the vegetables.",
+        "Fluff the couscous and mix in the vegetables."
+      ],
+      "prepMinutes": 15,
+      "cookMinutes": 5,
+      "servings": 2
+    },
+    {
+      "id": 8,
+      "title": "Banana Smoothie",
+      "ingredients": [
+        "1 banana",
+        "200 ml milk",
+        "2 tbsp oats"
+      ],
+      "steps": [
+        "Peel the banana.",
+        "Blend all ingredients until smooth.",
+        "Pour into a glass and serve."
+      ],
+      "prepMinutes": 5,
+      "cookMinutes": 0,
+      "servings": 2
+    },
+    {
+      "id": 9,
+      "title": "Roasted Potatoes",
+      "ingredients": [
+        "500 g potatoes",
+        "1 tbsp olive oil",
+        "1 tsp dried rosemary"
+      ],
+      "steps": [
+        "Heat the oven to 200 C.",
+        "Cut potatoes and toss with oil and rosemary.",
+        "Roast for 35 minutes, turning halfway through."
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 35,
+      "servings": 2
+    },
+    {
+      "id": 10,
+      "title": "Mushroom Rice",
+      "ingredients": [
+        "150 g rice",
+        "200 g mushrooms",
+        "1 onion",
+        "400 ml vegetable stock"
+      ],
+      "steps": [
+        "Chop the onion and mushrooms.",
+        "Cook the vegetables in a saucepan.",
+        "Add rice and stock.",
+        "Simmer until the rice is cooked."
+      ],
+      "prepMinutes": 10,
+      "cookMinutes": 25,
+      "servings": 2
+    }
+  ]
+}
