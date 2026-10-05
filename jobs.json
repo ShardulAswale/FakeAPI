@@ -1,0 +1,310 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "companyId": 1,
+      "title": "Frontend Developer",
+      "location": "London",
+      "salary": {
+        "min": 35000,
+        "max": 50000,
+        "currency": "GBP",
+        "period": "year"
+      },
+      "skills": [
+        "JavaScript",
+        "React",
+        "CSS"
+      ]
+    },
+    {
+      "id": 2,
+      "companyId": 2,
+      "title": "Backend Developer",
+      "location": "Manchester",
+      "salary": {
+        "min": 36000,
+        "max": 51000,
+        "currency": "GBP",
+        "period": "year"
+      },
+      "skills": [
+        "Python",
+        "REST APIs",
+        "SQL"
+      ]
+    },
+    {
+      "id": 3,
+      "companyId": 3,
+      "title": "Data Analyst",
+      "location": "Birmingham",
+      "salary": {
+        "min": 37000,
+        "max": 52000,
+        "currency": "GBP",
+        "period": "year"
+      },
+      "skills": [
+        "SQL",
+        "Python",
+        "Data Visualisation"
+      ]
+    },
+    {
+      "id": 4,
+      "companyId": 4,
+      "title": "QA Engineer",
+      "location": "Leeds",
+      "salary": {
+        "min": 38000,
+        "max": 53000,
+        "currency": "GBP",
+        "period": "year"
+      },
+      "skills": [
+        "Testing",
+        "Playwright",
+        "CI/CD"
+      ]
+    },
+    {
+      "id": 5,
+      "companyId": 5,
+      "title": "UX Designer",
+      "location": "Bristol",
+      "salary": {
+        "min": 39000,
+        "max": 54000,
+        "currency": "GBP",
+        "period": "year"
+      },
+      "skills": [
+        "Figma",
+        "Accessibility",
+        "Prototyping"
+      ]
+    },
+    {
+      "id": 6,
+      "companyId": 6,
+      "title": "AI Engineer",
+      "location": "Edinburgh",
+      "salary": {
+        "min": 40000,
+        "max": 55000,
+        "currency": "GBP",
+        "period": "year"
+      },
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "LLMs"
+      ]
+    },
+    {
+      "id": 7,
+      "companyId": 1,
+      "title": "Frontend Developer",
+      "location": "Glasgow",
+      "salary": {
+        "min": 41000,
+        "max": 56000,
+        "currency": "GBP",
+        "period": "year"
+      },
+      "skills": [
+        "JavaScript",
+        "React",
+        "CSS"
+      ]
+    },
+    {
+      "id": 8,
+      "companyId": 2,
+      "title": "Backend Developer",
+      "location": "Cardiff",
+      "salary": {
+        "min": 42000,
+        "max": 57000,
+        "currency": "GBP",
+        "period": "year"
+      },
+      "skills": [
+        "Python",
+        "REST APIs",
+        "SQL"
+      ]
+    },
+    {
+      "id": 9,
+      "companyId": 3,
+      "title": "Data Analyst",
+      "location": "Liverpool",
+      "salary": {
+        "min": 43000,
+        "max": 58000,
+        "currency": "GBP",
+        "period": "year"
+      },
+      "skills": [
+        "SQL",
+        "Python",
+        "Data Visualisation"
+      ]
+    },
+    {
+      "id": 10,
+      "companyId": 4,
+      "title": "QA Engineer",
+      "location": "Newcastle",
+      "salary": {
+        "min": 44000,
+        "max": 59000,
+        "currency": "GBP",
+        "period": "year"
+      },
+      "skills": [
+        "Testing",
+        "Playwright",
+        "CI/CD"
+      ]
+    },
+    {
+      "id": 11,
+      "companyId": 5,
+      "title": "UX Designer",
+      "location": "London",
+      "salary": {
+        "min": 45000,
+        "max": 60000,
+        "currency": "GBP",
+        "period": "year"
+      },
+      "skills": [
+        "Figma",
+        "Accessibility",
+        "Prototyping"
+      ]
+    },
+    {
+      "id": 12,
+      "companyId": 6,
+      "title": "AI Engineer",
+      "location": "Manchester",
+      "salary": {
+        "min": 46000,
+        "max": 61000,
+        "currency": "GBP",
+        "period": "year"
+      },
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "LLMs"
+      ]
+    },
+    {
+      "id": 13,
+      "companyId": 1,
+      "title": "Frontend Developer",
+      "location": "Birmingham",
+      "salary": {
+        "min": 47000,
+        "max": 62000,
+        "currency": "GBP",
+        "period": "year"
+      },
+      "skills": [
+        "JavaScript",
+        "React",
+        "CSS"
+      ]
+    },
+    {
+      "id": 14,
+      "companyId": 2,
+      "title": "Backend Developer",
+      "location": "Leeds",
+      "salary": {
+        "min": 48000,
+        "max": 63000,
+        "currency": "GBP",
+        "period": "year"
+      },
+      "skills": [
+        "Python",
+        "REST APIs",
+        "SQL"
+      ]
+    },
+    {
+      "id": 15,
+      "companyId": 3,
+      "title": "Data Analyst",
+      "location": "Bristol",
+      "salary": {
+        "min": 49000,
+        "max": 64000,
+        "currency": "GBP",
+        "period": "year"
+      },
+      "skills": [
+        "SQL",
+        "Python",
+        "Data Visualisation"
+      ]
+    },
+    {
+      "id": 16,
+      "companyId": 4,
+      "title": "QA Engineer",
+      "location": "Edinburgh",
+      "salary": {
+        "min": 50000,
+        "max": 65000,
+        "currency": "GBP",
+        "period": "year"
+      },
+      "skills": [
+        "Testing",
+        "Playwright",
+        "CI/CD"
+      ]
+    },
+    {
+      "id": 17,
+      "companyId": 5,
+      "title": "UX Designer",
+      "location": "Glasgow",
+      "salary": {
+        "min": 51000,
+        "max": 66000,
+        "currency": "GBP",
+        "period": "year"
+      },
+      "skills": [
+        "Figma",
+        "Accessibility",
+        "Prototyping"
+      ]
+    },
+    {
+      "id": 18,
+      "companyId": 6,
+      "title": "AI Engineer",
+      "location": "Cardiff",
+      "salary": {
+        "min": 52000,
+        "max": 67000,
+        "currency": "GBP",
+        "period": "year"
+      },
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "LLMs"
+      ]
+    }
+  ]
+}
