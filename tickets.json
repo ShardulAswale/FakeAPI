@@ -1,0 +1,144 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "userId": 1,
+      "subject": "Cannot access account",
+      "priority": "low",
+      "status": "open"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "subject": "Delivery status enquiry",
+      "priority": "medium",
+      "status": "in_progress"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "subject": "Product information request",
+      "priority": "high",
+      "status": "resolved"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "subject": "Billing question",
+      "priority": "low",
+      "status": "closed"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "subject": "Update contact details",
+      "priority": "medium",
+      "status": "open"
+    },
+    {
+      "id": 6,
+      "userId": 6,
+      "subject": "Cannot access account",
+      "priority": "high",
+      "status": "in_progress"
+    },
+    {
+      "id": 7,
+      "userId": 7,
+      "subject": "Delivery status enquiry",
+      "priority": "low",
+      "status": "resolved"
+    },
+    {
+      "id": 8,
+      "userId": 8,
+      "subject": "Product information request",
+      "priority": "medium",
+      "status": "closed"
+    },
+    {
+      "id": 9,
+      "userId": 9,
+      "subject": "Billing question",
+      "priority": "high",
+      "status": "open"
+    },
+    {
+      "id": 10,
+      "userId": 10,
+      "subject": "Update contact details",
+      "priority": "low",
+      "status": "in_progress"
+    },
+    {
+      "id": 11,
+      "userId": 11,
+      "subject": "Cannot access account",
+      "priority": "medium",
+      "status": "resolved"
+    },
+    {
+      "id": 12,
+      "userId": 12,
+      "subject": "Delivery status enquiry",
+      "priority": "high",
+      "status": "closed"
+    },
+    {
+      "id": 13,
+      "userId": 13,
+      "subject": "Product information request",
+      "priority": "low",
+      "status": "open"
+    },
+    {
+      "id": 14,
+      "userId": 14,
+      "subject": "Billing question",
+      "priority": "medium",
+      "status": "in_progress"
+    },
+    {
+      "id": 15,
+      "userId": 15,
+      "subject": "Update contact details",
+      "priority": "high",
+      "status": "resolved"
+    },
+    {
+      "id": 16,
+      "userId": 16,
+      "subject": "Cannot access account",
+      "priority": "low",
+      "status": "closed"
+    },
+    {
+      "id": 17,
+      "userId": 17,
+      "subject": "Delivery status enquiry",
+      "priority": "medium",
+      "status": "open"
+    },
+    {
+      "id": 18,
+      "userId": 18,
+      "subject": "Product information request",
+      "priority": "high",
+      "status": "in_progress"
+    },
+    {
+      "id": 19,
+      "userId": 19,
+      "subject": "Billing question",
+      "priority": "low",
+      "status": "resolved"
+    },
+    {
+      "id": 20,
+      "userId": 20,
+      "subject": "Update contact details",
+      "priority": "medium",
+      "status": "closed"
+    }
+  ]
+}
