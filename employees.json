@@ -1,0 +1,88 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Alex Morgan",
+      "department": "Leadership",
+      "jobTitle": "Managing Director",
+      "managerId": null
+    },
+    {
+      "id": 2,
+      "name": "Sam Patel",
+      "department": "Engineering",
+      "jobTitle": "Department Manager",
+      "managerId": 1
+    },
+    {
+      "id": 3,
+      "name": "Jordan Lee",
+      "department": "Engineering",
+      "jobTitle": "Software Engineer",
+      "managerId": 2
+    },
+    {
+      "id": 4,
+      "name": "Taylor Brown",
+      "department": "Engineering",
+      "jobTitle": "Software Engineer",
+      "managerId": 2
+    },
+    {
+      "id": 5,
+      "name": "Jamie Wilson",
+      "department": "Engineering",
+      "jobTitle": "Software Engineer",
+      "managerId": 2
+    },
+    {
+      "id": 6,
+      "name": "Casey Ahmed",
+      "department": "Sales",
+      "jobTitle": "Department Manager",
+      "managerId": 1
+    },
+    {
+      "id": 7,
+      "name": "Riley Chen",
+      "department": "Sales",
+      "jobTitle": "Sales Associate",
+      "managerId": 6
+    },
+    {
+      "id": 8,
+      "name": "Morgan Davies",
+      "department": "Sales",
+      "jobTitle": "Sales Associate",
+      "managerId": 6
+    },
+    {
+      "id": 9,
+      "name": "Avery Singh",
+      "department": "Sales",
+      "jobTitle": "Sales Associate",
+      "managerId": 6
+    },
+    {
+      "id": 10,
+      "name": "Cameron Evans",
+      "department": "Operations",
+      "jobTitle": "Department Manager",
+      "managerId": 1
+    },
+    {
+      "id": 11,
+      "name": "Drew Walker",
+      "department": "Operations",
+      "jobTitle": "Operations Analyst",
+      "managerId": 10
+    },
+    {
+      "id": 12,
+      "name": "Robin Clarke",
+      "department": "Operations",
+      "jobTitle": "Operations Analyst",
+      "managerId": 10
+    }
+  ]
+}
